@@ -1,0 +1,10 @@
+.display {
+    width: 100%;
+    flex-grow: 1;
+    height: 100%;
+    background: #00eaff;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

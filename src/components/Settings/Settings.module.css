@@ -1,0 +1,20 @@
+.counter {
+    width: calc(50vw - 25px);
+
+    min-height: 80lvh;
+    padding: 25px;
+    border-radius: 15px;
+    border: 2px solid #00eaff;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 25px;
+}
+
+@media screen and (max-width: 800px) {
+    .counter {
+        order: 2;
+        width: 100%;
+    }
+}
+

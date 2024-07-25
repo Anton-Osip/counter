@@ -1,0 +1,31 @@
+.counter {
+    width: calc(50vw - 25px);
+    min-height: 80lvh;
+    padding: 25px;
+    border-radius: 15px;
+    border: 2px solid #00eaff;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.currentValue {
+    font-size: 84px;
+    font-weight: bold;
+}
+
+.currentValueError {
+    color: red;
+    font-size: 54px;
+}
+
+.message {
+    font-size: 32px;
+}
+
+@media screen and (max-width: 800px) {
+    .counter {
+        width: 100%;
+    }
+}

@@ -1,0 +1,52 @@
+.form {
+    width: 100%;
+    flex-grow: 1;
+    height: 100%;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    padding: 15px;
+    border: 2px solid #00eaff;
+}
+
+
+.field {
+    width: 100%;
+    position: relative;
+}
+
+
+
+.input {
+    width: 100%;
+    padding: 15px;
+    border: 2px solid #00eaff;
+    font-size: 24px;
+    background-color: transparent;
+    outline: none;
+    color: #00eaff;
+}
+.inputError{
+    border: 2px solid #f40101;
+}
+
+.input::placeholder {
+    font-size: 24px;
+    opacity: 1;
+    transition: 0.3s ease-in-out;
+
+}
+
+.input:focus::placeholder {
+    opacity: 0;
+}
+
+.label{
+    font-size: 24px;
+    color: #00eaff;
+}
+
+
+
